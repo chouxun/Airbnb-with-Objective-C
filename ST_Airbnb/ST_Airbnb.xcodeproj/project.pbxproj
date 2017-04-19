@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABE75DE1EA778EB007F5540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE75DD1EA778EB007F5540 /* main.m */; };
+		CABE75E11EA778EB007F5540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE75E01EA778EB007F5540 /* AppDelegate.m */; };
+		CABE75E41EA778EB007F5540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE75E31EA778EB007F5540 /* ViewController.m */; };
+		CABE75E71EA778EB007F5540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE75E51EA778EB007F5540 /* Main.storyboard */; };
+		CABE75E91EA778EB007F5540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABE75E81EA778EB007F5540 /* Assets.xcassets */; };
+		CABE75EC1EA778EB007F5540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE75EA1EA778EB007F5540 /* LaunchScreen.storyboard */; };
+		CABE75F71EA778EC007F5540 /* ST_AirbnbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE75F61EA778EC007F5540 /* ST_AirbnbTests.m */; };
+		CABE76021EA778EC007F5540 /* ST_AirbnbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABE76011EA778EC007F5540 /* ST_AirbnbUITests.m */; };
+		CABE76121EA77A25007F5540 /* ST_Common in Resources */ = {isa = PBXBuildFile; fileRef = CABE76111EA77A25007F5540 /* ST_Common */; };
+		CABE76141EA77A2E007F5540 /* ST_Explore in Resources */ = {isa = PBXBuildFile; fileRef = CABE76131EA77A2E007F5540 /* ST_Explore */; };
+		CABE76161EA77A36007F5540 /* ST_Inbox in Resources */ = {isa = PBXBuildFile; fileRef = CABE76151EA77A36007F5540 /* ST_Inbox */; };
+		CABE76181EA77A3D007F5540 /* ST_Main in Resources */ = {isa = PBXBuildFile; fileRef = CABE76171EA77A3D007F5540 /* ST_Main */; };
+		CABE761A1EA77A44007F5540 /* ST_Profile in Resources */ = {isa = PBXBuildFile; fileRef = CABE76191EA77A44007F5540 /* ST_Profile */; };
+		CABE761C1EA77A4B007F5540 /* ST_Saved in Resources */ = {isa = PBXBuildFile; fileRef = CABE761B1EA77A4A007F5540 /* ST_Saved */; };
+		CABE761E1EA77A51007F5540 /* ST_Tools in Resources */ = {isa = PBXBuildFile; fileRef = CABE761D1EA77A51007F5540 /* ST_Tools */; };
+		CABE76201EA77A58007F5540 /* ST_Trips in Resources */ = {isa = PBXBuildFile; fileRef = CABE761F1EA77A58007F5540 /* ST_Trips */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABE75F31EA778EC007F5540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABE75D11EA778EA007F5540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABE75D81EA778EA007F5540;
+			remoteInfo = ST_Airbnb;
+		};
+		CABE75FE1EA778EC007F5540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABE75D11EA778EA007F5540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABE75D81EA778EA007F5540;
+			remoteInfo = ST_Airbnb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABE75D91EA778EB007F5540 /* ST_Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ST_Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE75DD1EA778EB007F5540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABE75DF1EA778EB007F5540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABE75E01EA778EB007F5540 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABE75E21EA778EB007F5540 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CABE75E31EA778EB007F5540 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CABE75E61EA778EB007F5540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABE75E81EA778EB007F5540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABE75EB1EA778EB007F5540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABE75ED1EA778EB007F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE75F21EA778EC007F5540 /* ST_AirbnbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ST_AirbnbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE75F61EA778EC007F5540 /* ST_AirbnbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_AirbnbTests.m; sourceTree = "<group>"; };
+		CABE75F81EA778EC007F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE75FD1EA778EC007F5540 /* ST_AirbnbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ST_AirbnbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABE76011EA778EC007F5540 /* ST_AirbnbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_AirbnbUITests.m; sourceTree = "<group>"; };
+		CABE76031EA778EC007F5540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABE76111EA77A25007F5540 /* ST_Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Common; sourceTree = "<group>"; };
+		CABE76131EA77A2E007F5540 /* ST_Explore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Explore; sourceTree = "<group>"; };
+		CABE76151EA77A36007F5540 /* ST_Inbox */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Inbox; sourceTree = "<group>"; };
+		CABE76171EA77A3D007F5540 /* ST_Main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Main; sourceTree = "<group>"; };
+		CABE76191EA77A44007F5540 /* ST_Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Profile; sourceTree = "<group>"; };
+		CABE761B1EA77A4A007F5540 /* ST_Saved */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Saved; sourceTree = "<group>"; };
+		CABE761D1EA77A51007F5540 /* ST_Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Tools; sourceTree = "<group>"; };
+		CABE761F1EA77A58007F5540 /* ST_Trips */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ST_Trips; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABE75D61EA778EA007F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75EF1EA778EC007F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75FA1EA778EC007F5540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABE75D01EA778EA007F5540 = {
+			isa = PBXGroup;
+			children = (
+				CABE75DB1EA778EB007F5540 /* ST_Airbnb */,
+				CABE75F51EA778EC007F5540 /* ST_AirbnbTests */,
+				CABE76001EA778EC007F5540 /* ST_AirbnbUITests */,
+				CABE75DA1EA778EB007F5540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABE75DA1EA778EB007F5540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABE75D91EA778EB007F5540 /* ST_Airbnb.app */,
+				CABE75F21EA778EC007F5540 /* ST_AirbnbTests.xctest */,
+				CABE75FD1EA778EC007F5540 /* ST_AirbnbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABE75DB1EA778EB007F5540 /* ST_Airbnb */ = {
+			isa = PBXGroup;
+			children = (
+				CABE75DF1EA778EB007F5540 /* AppDelegate.h */,
+				CABE75E01EA778EB007F5540 /* AppDelegate.m */,
+				CABE75E21EA778EB007F5540 /* ViewController.h */,
+				CABE75E31EA778EB007F5540 /* ViewController.m */,
+				CABE75E51EA778EB007F5540 /* Main.storyboard */,
+				CABE75EA1EA778EB007F5540 /* LaunchScreen.storyboard */,
+				CABE75ED1EA778EB007F5540 /* Info.plist */,
+				CABE75E81EA778EB007F5540 /* Assets.xcassets */,
+				CABE761F1EA77A58007F5540 /* ST_Trips */,
+				CABE761D1EA77A51007F5540 /* ST_Tools */,
+				CABE761B1EA77A4A007F5540 /* ST_Saved */,
+				CABE76191EA77A44007F5540 /* ST_Profile */,
+				CABE76171EA77A3D007F5540 /* ST_Main */,
+				CABE76151EA77A36007F5540 /* ST_Inbox */,
+				CABE76131EA77A2E007F5540 /* ST_Explore */,
+				CABE76111EA77A25007F5540 /* ST_Common */,
+				CABE75DC1EA778EB007F5540 /* Supporting Files */,
+			);
+			path = ST_Airbnb;
+			sourceTree = "<group>";
+		};
+		CABE75DC1EA778EB007F5540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABE75DD1EA778EB007F5540 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CABE75F51EA778EC007F5540 /* ST_AirbnbTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABE75F61EA778EC007F5540 /* ST_AirbnbTests.m */,
+				CABE75F81EA778EC007F5540 /* Info.plist */,
+			);
+			path = ST_AirbnbTests;
+			sourceTree = "<group>";
+		};
+		CABE76001EA778EC007F5540 /* ST_AirbnbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABE76011EA778EC007F5540 /* ST_AirbnbUITests.m */,
+				CABE76031EA778EC007F5540 /* Info.plist */,
+			);
+			path = ST_AirbnbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABE75D81EA778EA007F5540 /* ST_Airbnb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE76061EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_Airbnb" */;
+			buildPhases = (
+				CABE75D51EA778EA007F5540 /* Sources */,
+				CABE75D61EA778EA007F5540 /* Frameworks */,
+				CABE75D71EA778EA007F5540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ST_Airbnb;
+			productName = ST_Airbnb;
+			productReference = CABE75D91EA778EB007F5540 /* ST_Airbnb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABE75F11EA778EC007F5540 /* ST_AirbnbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE76091EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_AirbnbTests" */;
+			buildPhases = (
+				CABE75EE1EA778EC007F5540 /* Sources */,
+				CABE75EF1EA778EC007F5540 /* Frameworks */,
+				CABE75F01EA778EC007F5540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABE75F41EA778EC007F5540 /* PBXTargetDependency */,
+			);
+			name = ST_AirbnbTests;
+			productName = ST_AirbnbTests;
+			productReference = CABE75F21EA778EC007F5540 /* ST_AirbnbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABE75FC1EA778EC007F5540 /* ST_AirbnbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE760C1EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_AirbnbUITests" */;
+			buildPhases = (
+				CABE75F91EA778EC007F5540 /* Sources */,
+				CABE75FA1EA778EC007F5540 /* Frameworks */,
+				CABE75FB1EA778EC007F5540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABE75FF1EA778EC007F5540 /* PBXTargetDependency */,
+			);
+			name = ST_AirbnbUITests;
+			productName = ST_AirbnbUITests;
+			productReference = CABE75FD1EA778EC007F5540 /* ST_AirbnbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABE75D11EA778EA007F5540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shootingTime;
+				TargetAttributes = {
+					CABE75D81EA778EA007F5540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTBHDR2VF4;
+						ProvisioningStyle = Automatic;
+					};
+					CABE75F11EA778EC007F5540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTBHDR2VF4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABE75D81EA778EA007F5540;
+					};
+					CABE75FC1EA778EC007F5540 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTBHDR2VF4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABE75D81EA778EA007F5540;
+					};
+				};
+			};
+			buildConfigurationList = CABE75D41EA778EA007F5540 /* Build configuration list for PBXProject "ST_Airbnb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABE75D01EA778EA007F5540;
+			productRefGroup = CABE75DA1EA778EB007F5540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABE75D81EA778EA007F5540 /* ST_Airbnb */,
+				CABE75F11EA778EC007F5540 /* ST_AirbnbTests */,
+				CABE75FC1EA778EC007F5540 /* ST_AirbnbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABE75D71EA778EA007F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE76121EA77A25007F5540 /* ST_Common in Resources */,
+				CABE76201EA77A58007F5540 /* ST_Trips in Resources */,
+				CABE761A1EA77A44007F5540 /* ST_Profile in Resources */,
+				CABE76141EA77A2E007F5540 /* ST_Explore in Resources */,
+				CABE761C1EA77A4B007F5540 /* ST_Saved in Resources */,
+				CABE76161EA77A36007F5540 /* ST_Inbox in Resources */,
+				CABE761E1EA77A51007F5540 /* ST_Tools in Resources */,
+				CABE76181EA77A3D007F5540 /* ST_Main in Resources */,
+				CABE75EC1EA778EB007F5540 /* LaunchScreen.storyboard in Resources */,
+				CABE75E91EA778EB007F5540 /* Assets.xcassets in Resources */,
+				CABE75E71EA778EB007F5540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75F01EA778EC007F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75FB1EA778EC007F5540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABE75D51EA778EA007F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE75E41EA778EB007F5540 /* ViewController.m in Sources */,
+				CABE75E11EA778EB007F5540 /* AppDelegate.m in Sources */,
+				CABE75DE1EA778EB007F5540 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75EE1EA778EC007F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE75F71EA778EC007F5540 /* ST_AirbnbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE75F91EA778EC007F5540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE76021EA778EC007F5540 /* ST_AirbnbUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABE75F41EA778EC007F5540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABE75D81EA778EA007F5540 /* ST_Airbnb */;
+			targetProxy = CABE75F31EA778EC007F5540 /* PBXContainerItemProxy */;
+		};
+		CABE75FF1EA778EC007F5540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABE75D81EA778EA007F5540 /* ST_Airbnb */;
+			targetProxy = CABE75FE1EA778EC007F5540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABE75E51EA778EB007F5540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE75E61EA778EB007F5540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABE75EA1EA778EB007F5540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABE75EB1EA778EB007F5540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABE76041EA778EC007F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABE76051EA778EC007F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABE76071EA778EC007F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-Airbnb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CABE76081EA778EC007F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-Airbnb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CABE760A1EA778EC007F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_AirbnbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-AirbnbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ST_Airbnb.app/ST_Airbnb";
+			};
+			name = Debug;
+		};
+		CABE760B1EA778EC007F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_AirbnbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-AirbnbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ST_Airbnb.app/ST_Airbnb";
+			};
+			name = Release;
+		};
+		CABE760D1EA778EC007F5540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_AirbnbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-AirbnbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ST_Airbnb;
+			};
+			name = Debug;
+		};
+		CABE760E1EA778EC007F5540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RTBHDR2VF4;
+				INFOPLIST_FILE = ST_AirbnbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhen.ST-AirbnbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ST_Airbnb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABE75D41EA778EA007F5540 /* Build configuration list for PBXProject "ST_Airbnb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE76041EA778EC007F5540 /* Debug */,
+				CABE76051EA778EC007F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE76061EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_Airbnb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE76071EA778EC007F5540 /* Debug */,
+				CABE76081EA778EC007F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABE76091EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_AirbnbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE760A1EA778EC007F5540 /* Debug */,
+				CABE760B1EA778EC007F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CABE760C1EA778EC007F5540 /* Build configuration list for PBXNativeTarget "ST_AirbnbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABE760D1EA778EC007F5540 /* Debug */,
+				CABE760E1EA778EC007F5540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABE75D11EA778EA007F5540 /* Project object */;
+}
